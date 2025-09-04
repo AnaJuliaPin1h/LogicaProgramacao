@@ -1,0 +1,46 @@
+/* Margin = espaço externo (afasta do que está fora).
+
+Padding = espaço interno (afasta o conteúdo da borda). */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo da página. (background-color)é uma propriedade do CSS, e usada para definir a cor de fundo de um elemento HTML ou da página inteira  */
+body {
+    background-color: antiquewhite;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: azure;
+}
+
+/* Estilo do main (conteudo principal da pagina) */
+/* (font-size: 17px;)é responsável por definir o tamanho do texto em um elemento, unidades de medida px (pixels)  */
+main {
+    font-size: 17px;
+}
+
+/* Estilo dos parágrafos */
+/* font-weight: controla o peso (espessura) da fonte BOLD: Negrito*/
+p {
+    font-size: 1em;
+    font-weight: bold; 
+    line-height: 2; /* espaçamento entre linhas. Se você tiver um parágrafo longo, o line-height ajuda a deixar o texto mais fácil de ler. */
+    letter-spacing: 7px; /*Define o espaçamento entre as letras de um texto. É útil quando você quer destacar títulos, deixar o texto mais "respirado" ou estilizar palavras*/
+    text-indent: 6px; /*recuo da primeira linha do parágrafo*/
+    color: rgb(112, 97, 77);
+}
+
+/* Parágrafos dentro de section > div > */
+main > section > div > p {
+    color: blue;
+}
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}

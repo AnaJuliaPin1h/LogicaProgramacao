@@ -1,0 +1,42 @@
+main {
+    width: 50vw;
+    margin: auto; /* Centraliza o elemento na tela */
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1{
+    text-align:left;
+}
+/* Estilos aplicados a cada título individual, via ID */
+#titulo01 {
+    color:rgb(211, 89, 173);
+    
+}
+
+#titulo02 {
+    color:rgb(75, 23, 105);
+}
+
+#titulo03 {
+    color:rgb(97, 161, 194);
+}
+
+p {
+    text-align: left; /* Alinha os parágrafos à esquerda */
+    background-color: whitesmoke; /* Cor de fundo clara para os parágrafos */
+}
+
+/* Estilos aplicados às classes dos parágrafos */
+.p1 {
+    color:rgb(222, 158, 213);
+}
+
+.p2 {
+    color:rgb(100, 92, 204);
+}
+
+.p3 {
+    color:rgb(108, 122, 211);
+}

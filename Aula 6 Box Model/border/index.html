@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        main {
+            margin:auto;
+            width: 80vw;
+            background-image: linear-gradient(to top, rgb(110, 100, 255), rgb(126, 18, 209), rgb(225, 17, 83));
+            border-top: 1px solid black;
+            border-bottom: 1px solid rgb(110, 100, 255);
+            border-left: 1px solid rgb(220, 101, 198);
+            border-right: 1px solid rgb(175, 141, 255);
+            box-shadow: 11px 11px 3px rgba(0, 0, 0, 0.468);
+        }
+        
+        #box1 {
+            background-image: linear-gradient(to top, rgb(110, 100, 255), rgb(30, 219, 181), rgb(175, 141, 255));
+            border-width: 2px;
+            border-color:rgb(235, 74, 11);
+            border-style:double;
+            border-radius: 15px;
+        }
+
+        #box2 {
+            background-image: linear-gradient(to top, rgb(110, 100, 255), rgb(30, 219, 181), rgb(175, 141, 255));
+            border: 2px double rgb(1, 17, 245);
+            border-radius: 15px;
+        }
+
+        #box3 {
+            background-image: linear-gradient(to top, rgb(110, 100, 255), rgb(30, 219, 181), rgb(175, 141, 255));
+            border-width: 2px;
+            border-color:rgb(163, 3, 53);
+            border-style:double;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="box1">
+           === Essa é a primeira caixa ===
+        </div>
+        <br>
+
+        <div id="box2">
+           === Segunda caixa ===
+        </div>
+        <br>
+
+        <div id="box3">
+           === Terceira caixa ===
+        </div>
+
+
+    </main>
+
+</body>
+</html>

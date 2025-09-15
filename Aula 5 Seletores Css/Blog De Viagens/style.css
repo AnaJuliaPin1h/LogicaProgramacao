@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+    width: 50vw;
+}
+
+#destinos-incriveis {
+    font-size: 36px; 
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+#maravilhas-naturais {
+    font-size: 36px;
+    color: #27ae60;
+    background-color: #e9f7ef;
+    text-align: center;
+}
+
+#cidades-vibrantes {
+    font-size: 36px;
+    color: #f39c12;
+    background-color: #fff3e6;
+    text-align: center;
+}
+
+#experiencias-culturais {
+    font-size: 36px;
+    color: #8e44ad;
+    background-color: #f5e6f5;
+    text-align: center;
+}
+
+.paris, .roma, .kyoto {
+    font-size: 28px;
+    color: #e74c3c;
+    background-color: #f9ebea;
+}
+
+.grand-canyon, .amazonia, .great-barrier-reef {
+    font-size: 28px;
+    color: #27ae60;
+    background-color: #e9f7ef;
+}
+
+.nova-york, .barcelona, .bangkok {
+    font-size: 28px;
+    color: #f39c12;
+    background-color: #fff3e6;
+}
+
+.jerusalem, .marrakech, .veneza {
+    font-size: 28px;
+    color: #8e44ad;
+    background-color: #f5e6f5;
+}
+
+
+p {
+    font-size:  1em;
+    color: #34495e;
+    text-align: justify;
+    line-height: 1.4;
+}
+/*font-size:tamanho da fonte (letras) do texto*/
+/*text-align:alinhamento horizontal do texto centercentraliza o texto.
+/*line-height:espaçamento entre as linhas de texto dentro de um parágrafo ou outro elemento de texto*/

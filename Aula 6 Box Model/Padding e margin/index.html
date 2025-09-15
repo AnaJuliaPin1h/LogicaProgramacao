@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding e Margin</title>
+    <style>
+        /* Zera margens e paddings de todos os elementos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo do container principal */
+        main {
+            width: 70vw; /* Largura relativa à tela */
+            margin: 50px auto; /* Centraliza horizontalmente e adiciona espaço vertical */
+            border: 1px solid #fff;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+            padding: 20px 50px; /* Espaço interno */
+            background-color: #f9f9f9; /* Para destacar a área do main */
+        }
+
+        /* Estilo das caixas */
+        div {
+            margin: 10px 0; /* Espaço vertical entre as caixas */
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 8px; /* Cantos levemente arredondados */
+            background-color: #fff; /* Cor de fundo das caixas */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="box1">Primeira caixa</div>
+        <div id="box2">Segunda caixa</div>
+        <div id="box3">Terceira caixa</div>
+    </main>
+</body>
+</html>

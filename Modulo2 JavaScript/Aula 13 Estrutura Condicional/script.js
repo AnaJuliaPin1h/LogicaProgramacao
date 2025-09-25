@@ -4,14 +4,14 @@ function calcular() {
     const operacao = document.getElementById("operacao").value;
     const resultado = document.getElementById("resultado");
 
-    // Verifica se os campos estão preenchidos
+    // Verifica se os campos estão preenchidos com o isNan
     if (isNaN(num1) && isNaN(num2)) {
       resultado.innerHTML = "Preencha todos os campos";
       resultado.style.color = "red";
       return;
     }
 
-    // Verifica se os números são maiores que 10
+    //n
     if (num1 > Infinity || num2 > Infinity) {
       resultado.innerHTML = "Digite valores menores ou iguais a 10";
       resultado.style.color = "red";
